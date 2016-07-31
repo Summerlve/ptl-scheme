@@ -1,4 +1,3 @@
-#lang racket
 (define (insert x lst)
     (if (null? lst)
             (list x)
@@ -15,4 +14,3 @@
                                         (insertion-sort (cdr lst)))))
 
 (insertion-sort '(6 8 5 9 3 2 1 4 7))
-
